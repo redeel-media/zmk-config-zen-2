@@ -13,6 +13,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
+
                 default_layer {
                         label = "COLEMAK";
 // -----------------------------------------------------------------------------------------
@@ -21,7 +22,7 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp I   &kp SEMI    &kp ESC
+   &kp TAB   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI    &kp ESC
    &kp BSPC &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E     &kp I   &kp O &kp SQT
    &mt LSHFT RET &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHFT RET
                   &kp LGUI &mo 1 &mt LCTRL SPACE   &kp SPACE &mo 2 &kp RALT
