@@ -1,11 +1,16 @@
 manifest:
   remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
     - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
+    - name: zmk
+      remote: caksoylar
+      revision: caksoylar/zen-8bit
+      import: app/west.yml
     - name: zmk-tri-state
       remote: caksoylar
       revision: main
-      import: app/west.yml
   self:
     path: config
