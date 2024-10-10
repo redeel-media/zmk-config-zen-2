@@ -9,8 +9,11 @@ manifest:
       remote: caksoylar
       revision: caksoylar/zen-8bit
       import: app/west.yml
-    - name: zmk-tri-state
+    - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
+    - name: zmk-tri-state
+      remote: caksoylar
+      revision: split-locality
   self:
     path: config
