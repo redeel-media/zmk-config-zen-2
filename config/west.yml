@@ -3,9 +3,9 @@ manifest:
     - name: caksoylar
       url-base: https://github.com/caksoylar
   projects:
-    - name: zmk
+    - name: zmk-tri-state
       remote: caksoylar
-      revision: caksoylar/zen-v2+mouse # custom branch name
+      revision: main
       import: app/west.yml
   self:
     path: config
