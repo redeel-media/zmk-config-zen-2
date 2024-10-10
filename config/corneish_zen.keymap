@@ -63,10 +63,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1      &kp N2       &kp N3       &kp N4       &kp N5     &kp N6    &kp N7    &kp N8   &kp N9    &kp N0  &kp BSPC
-   &trans     &kp COLON   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK         &mwh SCROLL_UP   &trans &kp MINUS &kp UP   &kp UNDER &trans  &kp PG_UP
-   &kp LSHFT  &trans      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &mwh SCROLL_DOWN     &kp PLUS  &kp LEFT  &kp DOWN &kp RIGHT &trans  &kp PG_DN
-                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &kp TAB    &kp N1      &kp N2          &kp N3          &kp N4            &kp N5              &kp N6    &kp N7    &kp N8   &kp N9     &kp N0  &kp BSPC
+   &trans     &kp COLON   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK         &mwh SCROLL_UP      &trans    &kp MINUS &kp UP   &kp UNDER  &trans  &kp PG_UP
+   &kp LSHFT  &trans      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &mwh SCROLL_DOWN    &kp PLUS  &kp LEFT  &kp DOWN &kp RIGHT  &trans  &kp PG_DN
+                                          &kp LGUI        &trans            &kp SPACE           &kp RET   &trans    &kp RALT
                         >;
                 };
         
